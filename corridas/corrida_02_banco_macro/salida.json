@@ -1,0 +1,31 @@
+{
+  "version_contrato": "OT-INGRESO-1.0",
+  "id_respuesta": "ACYDBNhSTHAfuXA9k029dlB-sMwpwTtDE2OmD-r2pZrFPyim-2vUHUK40aqhss3woIkzCLg",
+  "dictamen": "OBSERVADA",
+  "cliente_razon_social": "Banco Macro ",
+  "cuit": "30-50001008-9",
+  "anunciante_marca": "Banco Macro S.A.",
+  "vendedor_declarado": "VEN-001",
+  "numero_op_agencia": "2026-001",
+  "fecha_inicio": "2026-07-23",
+  "fecha_fin": "2026-08-31",
+  "dias_activos_propuestos": 40,
+  "moneda": "ARS",
+  "inversion_neta_total_declarada": 2500000,
+  "fee_agencia_o_descuento_declarado": "0%",
+  "condicion_pago": "30 dias",
+  "soportes_solicitados": "10 mupis",
+  "spots_por_hora": 1,
+  "duracion_spot_segundos": 10,
+  "adjuntos_presentes": false,
+  "campos_faltantes": [
+    "114b8975"
+  ],
+  "alertas": [
+    "La fecha de inicio (2026-07-23) y fin (2026-08-31) son anteriores a la fecha de envío del formulario (2026-09-13).",
+    "Falta el archivo adjunto de la Orden de Publicidad (pregunta 114b8975)."
+  ],
+  "observaciones": "El período de la campaña ya transcurrió en su totalidad con respecto a la fecha de recepción del formulario (2026-09-13). Adicionalmente, no se adjuntó el documento físico/digital de la Orden de Publicidad. Requiere confirmación comercial urgente del vendedor sobre las fechas cargadas y la provisión del adjunto correspondiente. La ocupación de los soportes no ha sido verificada.",
+  "estado_ocupacion": "NO_VERIFICADA",
+  "requiere_revision_humana": true
+}

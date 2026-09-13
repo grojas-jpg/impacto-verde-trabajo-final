@@ -1,0 +1,31 @@
+{
+  "version_contrato": "OT-INGRESO-1.0",
+  "id_respuesta": "ACYDBNjlrS7Cfn2JPO0T1tEeq1sgvgeVrNrfLnRmwFisOM0cuyzFx61nhXcZvgNFGxhrwj8",
+  "dictamen": "OBSERVADA",
+  "cliente_razon_social": "Tortugas Open Mall S.A.",
+  "cuit": "30-71012345-6",
+  "anunciante_marca": "Tortugas Open Mall S.A",
+  "vendedor_declarado": "VEN-001",
+  "numero_op_agencia": "2026-005",
+  "fecha_inicio": "2026-08-10",
+  "fecha_fin": "2026-09-09",
+  "dias_activos_propuestos": 31,
+  "moneda": "ARS",
+  "inversion_neta_total_declarada": 1250000,
+  "fee_agencia_o_descuento_declarado": "0%",
+  "condicion_pago": "60 dias F.F.",
+  "soportes_solicitados": "5",
+  "spots_por_hora": 1,
+  "duracion_spot_segundos": 10,
+  "adjuntos_presentes": false,
+  "campos_faltantes": [
+    "114b8975: Adjuntar Orden de Publicidad (PDF o Imagen)"
+  ],
+  "alertas": [
+    "Carga retroactiva detectada: las fechas de inicio (2026-08-10) y fin (2026-09-09) de la campaña son anteriores a la fecha de envío del formulario (2026-09-13).",
+    "Falta adjunto obligatorio: no se encontró archivo de respaldo en el campo 114b8975."
+  ],
+  "observaciones": "La orden de publicidad fue enviada el 13 de septiembre de 2026, pero la pauta declarada finalizó el 9 de septiembre de 2026. Se requiere verificación humana urgente para confirmar si corresponde a una carga histórica de regularización. Adicionalmente, el cliente no adjuntó la orden digital de respaldo.",
+  "estado_ocupacion": "NO_VERIFICADA",
+  "requiere_revision_humana": true
+}

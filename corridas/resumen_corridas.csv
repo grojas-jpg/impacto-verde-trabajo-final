@@ -1,0 +1,4 @@
+corrida,cliente,marca,fecha_procesamiento,modelo,dictamen,tokens_entrada,tokens_salida_visible,tokens_total,estado
+1,NIESI RICARDO MAXIMILIANO,GOUT GOURMET,2026-09-13T20:07:14+00:00,gemini-3.5-flash,OBSERVADA,2896,574,6269,BORRADOR_PENDIENTE_REVISION
+2,Banco Macro ,Banco Macro S.A.,2026-09-13T21:09:18+00:00,gemini-3.5-flash,OBSERVADA,2879,592,6339,BORRADOR_PENDIENTE_REVISION
+3,Tortugas Open Mall S.A.,Tortugas Open Mall S.A,2026-09-13T21:13:26+00:00,gemini-3.5-flash,OBSERVADA,2882,602,6167,BORRADOR_PENDIENTE_REVISION
