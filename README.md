@@ -114,3 +114,27 @@ No se incluyen secretos ni credenciales.
 - no se hizo A/B real con Flash-Lite antes del cierre.
 
 Estas limitaciones son deliberadas y están documentadas.
+
+
+## Evidencia directa de herramienta
+
+La ejecución real y los permisos de cada conector están documentados en:
+
+`automatizacion/VERIFICACION_HERRAMIENTA.md`
+
+## Reproducibilidad reforzada
+
+Cada `metadata.md` dentro de `corridas/` identifica explícitamente:
+- versión del agente;
+- contrato;
+- modelo;
+- prompts;
+- blueprint;
+- ruta de ejecución;
+- entrada original;
+- salida original.
+
+## Contingencias
+
+El procedimiento operativo ante errores 503/429, JSON inválido, mismatch de ID y fallas de Sheets
+está en `GOBIERNO_Y_RIESGO.md`.

@@ -21,3 +21,22 @@ El agente no aprobó la venta, no reservó dispositivos y no modificó ocupació
 ## Observación del agente
 
 La pauta se declara del 2026-08-11 al 2026-09-10, pero el formulario se envió el 2026-09-12. Requiere confirmación humana de si se trata de una regularización de pauta ya emitida. No posee orden adjunta para cotejar.
+
+## Reproducibilidad de la corrida
+
+- **Versión del agente:** V1.1
+- **Contrato:** `OT-INGRESO-1.0`
+- **Modelo:** `gemini-3.5-flash`
+- **Orquestador:** Make
+- **Entrada original:** `corridas/corrida_01_gout_gourmet/entrada.json`
+- **Salida original:** `corridas/corrida_01_gout_gourmet/salida.json`
+- **System prompt:** `prompts/system_prompt.md`
+- **User prompt operativo:** `prompts/user_prompt.md`
+- **Blueprint:** `automatizacion/escenario_make_V1_1.blueprint.json`
+- **Ruta:** Google Forms → Make → JSON → Gemini → Parse JSON → filtro contractual → Google Sheets PRUEBAS
+
+Un tercero puede reconstruir esta corrida importando el blueprint, reconectando credenciales propias,
+inyectando una entrada equivalente y verificando que el resultado termine como
+`BORRADOR_PENDIENTE_REVISION`.
+
+La evidencia original de esta corrida se conserva sin reescribir en `entrada.json` y `salida.json`.
